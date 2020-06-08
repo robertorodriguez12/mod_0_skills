@@ -1,0 +1,18 @@
+class: fastFoodRestaurant
+
+Attributes:
+
+name (string)
+seating_capacity (Integer)
+has_drive_thru (boolean)
+cuisine_type (Array)
+owner (array)
+number_of_orders (Integer)
+is_open (boolean)
+days_and_hours_of_operation (hash)
+
+Methods:
+add_to_seating_capacity (seating_capacity + new seats)
+add_owner (add_owner to owner array)
+add_to_number_of_orders (number_of_orders + new_order)
+constructs_drive_thru (change has_drive_thru to true)
