@@ -1,0 +1,17 @@
+instance: ourCountryHearts
+
+Attributes:
+
+name: "Our Country Hearts"
+seating_capacity: 45
+cuisine_type: ["American", "Italian"]
+owner: "John Doe"
+is_open: true
+number_of_customers_seated: 15
+
+Methods:
+
+calculate_available_seats (45 - 15 = 30)
+add_cuisine_type (adds "Polish" ["American", "Italian", "Polish"])
+add_to_seating_capacity (10 + 45 = 55)
+close_restaurant (is_open = false)
