@@ -1,0 +1,16 @@
+class: dineInRestaurant
+
+Attributes:
+
+name (string)
+seating_capacity (integer)
+cuisine_type (Array)
+owner (string)
+is_open (boolean)
+number_of_customers_seated (integer)
+
+Methods:
+calculate_available_seats (seating_capacity - number_of_customers_seated)
+add_cuisine_type (add item to cuisine_type array)
+add_to_seating_capacity (seating_capacity + new_seats)
+close_restaurant (change is_open to false)
