@@ -1,0 +1,19 @@
+instance: chubbys
+
+Attributes:
+
+name: "The Original Chubbys"
+seating_capacity: 20
+has_drive_thru: false
+cuisine_type: ["Mexican", "American"]
+owner: ["John Adams", "John Hopkins"]
+number_of_orders: 14
+is_open: true
+days_and_hours_of_operation: {"Monday":"0800-2200", "Tuesday":"0800-2200", "Wednesday":"0800-2200",
+"Thursday":"0800-2200", "Friday":"0800-2359", "Saturday":"0700-2359", "Sunday":"0800-1900"}
+
+Methods:
+add_to_seating_capacity (20 + 10 = 30)
+add_owner (adds "Mike Smith" ["John Adams", "John Hopkins", "Mike Smith"])
+add_to_number_of_orders ( 14 + 6 = 20)
+constructs_drive_thru ( has_drive_thru = true)
