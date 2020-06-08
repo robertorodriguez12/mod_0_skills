@@ -1,0 +1,16 @@
+1. food = "Tamales"
+2. is_delicious = true
+3. food = "Tacos"
+4. num2 = 4
+5. num7 = 20
+6.
+def divide (a,b)
+a/b
+end
+quotient = []
+quotient << num7/num2 (20/4 = 5)
+7.songs = ["Suavemente", "Get Low", "Gasolina", "Red Solo Cup"]
+9. code that removes first element from songs array:
+songs.shift
+10. Write code that asks how many characters are in the food string:
+food.length
